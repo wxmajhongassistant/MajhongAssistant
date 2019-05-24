@@ -1,0 +1,15 @@
+<!--pages/startround/startround.wxml-->
+<view class="contain">
+<block wx:for="{{score}}">
+<view class="item">条目{{index+1}} 自家:{{item.zijia}} 对家:{{item.duijia}} 上家:{{item.shangjia}} 下家:{{item.xiajia}}</view>
+</block>
+</view>
+<view class='title'>
+<text>
+正在进行第{{time}}巡
+</text></view>
+<view>
+<button class='btn' bindtap='btnhepai'>和牌算分</button>
+<button class='btn'bindtap='btnhuangpai'>荒牌流局</button>
+<button class='btn'bindtap='btnstop'>强制结束</button>
+</view>

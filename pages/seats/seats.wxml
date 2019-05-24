@@ -1,0 +1,16 @@
+
+<view class="container">
+  <view class='title1'>
+      <text class='title2'>{{state}}</text>
+  </view>
+  <button catchtap='f2' style='background-color:{{color2}}'>对家</button>
+  <view class='mid-container'>
+    <button class="last-player" catchtap='f3' style='background-color:{{color3}}'>上家</button>
+    <button class="next-player" catchtap='f1' style='background-color:{{color1}}'>下家</button>
+  </view>
+  <button catchtap='f0' style='background-color:{{color0}}'>自家</button>
+  <view class='mid-container'>
+    <button catchtap='sure'>确定</button>
+    <button catchtap='liuju' hidden='{{ishide}}'>流局</button>
+  </view>
+</view>

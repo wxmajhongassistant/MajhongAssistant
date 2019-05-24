@@ -1,0 +1,20 @@
+<view class="container">
+<radio-group bindchange="changechoose">
+<view class='item'>
+<label>
+<radio value='half'>
+</radio>东风场（半庄）
+</label>
+</view>
+<view class='item'>
+<label>
+<radio value='whole'>南风场（全庄）
+</radio>
+</label>
+</view>
+</radio-group>
+<button style="margin-top:20px;" bindtap='btnclick'>确认</button>
+
+
+
+</view>

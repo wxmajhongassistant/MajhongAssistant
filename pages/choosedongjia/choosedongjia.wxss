@@ -1,0 +1,4 @@
+/* pages/choosedongjia/choosedongjia.wxss */
+.item{
+  margin-top:20px;
+}

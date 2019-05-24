@@ -1,0 +1,6 @@
+<!--pages/suanfen/suanfen.wxml-->
+<view class='container'>
+
+<button bindtap='btnfanhui'>返回</button>
+<button bindtap='btnconfirm'>确定</button>
+</view>

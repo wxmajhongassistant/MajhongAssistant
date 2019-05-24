@@ -1,0 +1,5 @@
+<view class="contain">
+<block wx:for="{{score}}">
+<view class="item">条目{{index+1}} 自家:{{item.zijia}} 对家:{{item.duijia}} 上家:{{item.shangjia}} 下家:{{item.xiajia}}</view>
+</block>
+</view>

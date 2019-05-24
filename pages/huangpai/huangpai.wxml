@@ -1,0 +1,3 @@
+<!--pages/huangpai/huangpai.wxml-->
+<text>pages/huangpai/huangpai.wxml</text>
+<button bindtap='btnclick'>确定</button>

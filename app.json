@@ -1,0 +1,24 @@
+{
+  "pages": [
+        "pages/logs/logs",
+
+    "pages/index/index",
+    "pages/viewscore/viewscore",
+    "pages/choosedongjia/choosedongjia",
+
+    "pages/huangpai/huangpai",
+    "pages/seats/seats",
+    "pages/suanfen/suanfen",
+    "pages/final/final",
+    "pages/startround/startround"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

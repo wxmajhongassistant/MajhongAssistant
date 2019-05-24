@@ -1,0 +1,48 @@
+.container {
+  
+  background-color: #fff;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px;
+  border-color: #000;
+
+  position: relative;
+  bottom:100rpx;
+}
+
+.last-player{
+  position: relative;
+  right:100rpx;
+  
+  
+}
+
+.next-player{
+  position: relative;
+  left:100rpx;
+  
+}
+.mid-container{
+  display: flex;
+  flex-direction: row;
+}
+
+/* .title2{
+  position: relative;
+  bottom:150rpx;
+  font-size:25px;
+  color: green;
+  font-weight:bold;
+  border:5px solid blue;
+  border-radius: 10%;
+}
+*/
+
+.title1{
+  position: relative;
+  bottom:100rpx;
+} 
